@@ -1,0 +1,20 @@
+from ROOT import *
+import csv
+import math
+import datetime
+
+filename=
+
+force = []
+extension = []
+with open(filename, 'r') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    for row in reader:
+        nom = float(row[1])
+        act= float(row[2])
+        force.append(nom)
+        extension.append(act)
+
+
+print force
+print extension

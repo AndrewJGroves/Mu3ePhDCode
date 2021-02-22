@@ -1,0 +1,26 @@
+\documentclass{article} 
+\usepackage[a4paper,total={6in,10in}]{geometry} 
+\usepackage[parfill]{parskip} 
+\usepackage[utf8]{inputenc} 
+\usepackage{hyperref} 
+\usepackage{graphicx} 
+\usepackage{float} 
+\usepackage{longtable} 
+\begin{document} 
+\centerline{\huge{Modele}}\begin{table}[H] 
+\begin{center} 
+\begin{tabular}{|l|c|c|c|c|} 
+\hline 
+  & Length & Nominal & Rotation & Align to ladder 1 \\ 
+\hline 
+ Ladder 1 endpiece & 380.3140 & 380 &  0.0830 & - \\ 
+Ladder 4 endpiece & 380.5960 & 380 &  -0.1990 & - \\ 
+Ladder 1 & 353.8415 &    & 0.1015 & - \\ 
+Ladder 2 & 353.6570 &    & 0.0410 & 0.151500 \\ 
+Ladder 3 & 353.8660 &    & 0.0500 & 0.163000 \\ 
+Ladder 4 & 353.6420 &    & -0.0265 & 0.099500 \\ 
+\hline 
+ \end{tabular} 
+\end{center} 
+\end{table} 
+\end{document} 

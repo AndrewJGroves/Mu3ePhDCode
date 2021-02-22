@@ -1,0 +1,18 @@
+from ROOT import *
+import csv
+import math
+import datetime
+
+
+
+
+with open(filename, 'r') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    time = []
+    dist = []
+    for row in reader:
+        print row
+        t = float(row[1])
+        d= float(row[2])
+        time.append(t)
+        dist.append(d)
